@@ -1,0 +1,30 @@
+{
+  "scripts": {
+    "dev": "electron-webpack dev",
+    "build": "electron-webpack && electron-builder --mac --x64"
+  },
+  "name": "electron-webpack-ts-react-template",
+  "version": "10.0.0",
+  "devDependencies": {
+    "@babel/preset-react": "^7.10.4",
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/lab": "^4.0.0-alpha.56",
+    "@types/electron-devtools-installer": "^2.2.0",
+    "@types/node": "12",
+    "@types/react": "^16.9.47",
+    "@types/react-dom": "^16.9.8",
+    "electron": "^10.0.0",
+    "electron-builder": "^22.8.0",
+    "electron-devtools-installer": "^3.1.1",
+    "electron-store": "^6.0.1",
+    "electron-webpack": "^2.8.2",
+    "electron-webpack-ts": "^4.0.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "typescript": "^4.0.2",
+    "webpack": "^4.44.1"
+  },
+  "dependencies": {
+    "source-map-support": "^0.5.19"
+  }
+}
